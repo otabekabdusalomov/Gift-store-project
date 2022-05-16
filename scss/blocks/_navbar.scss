@@ -4,7 +4,6 @@
     &__list{
         list-style: none;
         display: flex;
-
         align-items: center;
     }
     &__item + &__item{
@@ -23,6 +22,9 @@
     }
     &__link:active{
       opacity: 0.4;
+    }
+    &__button{
+      padding-left: 500px;
     }
    
 }

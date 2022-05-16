@@ -378,13 +378,14 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1130px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .site-header {
   padding-top: 37px;
+  padding-bottom: 39px;
 }
 .site-header__container {
   display: flex;
@@ -428,6 +429,9 @@ img {
 .sitenav__link:active {
   opacity: 0.4;
 }
+.sitenav__button {
+  padding-left: 500px;
+}
 
 .button {
   font-size: 18px;
@@ -447,4 +451,50 @@ img {
 }
 .button:active {
   opacity: 0.4;
+}
+
+.hero {
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 100vh;
+}
+.hero__box {
+  padding-top: 154px;
+  padding-left: 82px;
+  max-width: 433px;
+  min-height: 411px;
+}
+.hero__heading {
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  max-width: 433px;
+}
+.hero__desc {
+  max-width: 422px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  padding-bottom: 52px;
+}
+.hero__button {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #F7941E;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 24px;
+}
+
+.hero-two {
+  background-image: url(../img/Media.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
